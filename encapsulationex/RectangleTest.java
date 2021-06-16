@@ -7,10 +7,9 @@ public class RectangleTest {
         rt.setLength(20);
         rt.setBreadth(30);
         rt.calcArea();
-        // int lth = rt.getLength();
-        // int bth = rt.getBreadth();
-
-        // int Area = lth * bth;
-        // System.out.println("Area:" + Area);
+        int lth = rt.getLength();
+        int bth = rt.getBreadth();
+        int Area = lth * bth;
+        System.out.println("Area:" + Area);
     }
 }

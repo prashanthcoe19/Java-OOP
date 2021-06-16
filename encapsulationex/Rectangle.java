@@ -11,13 +11,13 @@ public class Rectangle {
     // this.breadth = breadth;
     // }
 
-    // public int getLength() {
-    // return length;
-    // }
+    public int getLength() {
+        return length;
+    }
 
-    // public int getBreadth() {
-    // return breadth;
-    // }
+    public int getBreadth() {
+        return breadth;
+    }
 
     // if we only use set method, our class will be write only
     public void setLength(int length) {
